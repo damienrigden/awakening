@@ -52,4 +52,4 @@ print(decode)
 
 decoded = awake(decode)
 
-decode = ???
+decoded = ???
