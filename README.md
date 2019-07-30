@@ -14,3 +14,8 @@ Submit pull requests to "README.md" for any questions or clarification.
 First person to solve this wins a piece of art!
 
 Enjoy!
+
+
+Does the order of numbers in the encryption matter / if you moved the items in the dictionary around, would the encryption be different?
+
+Do the quotes get encrypted as well / could you encrypt integers?
