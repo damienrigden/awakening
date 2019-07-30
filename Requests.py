@@ -6,3 +6,4 @@ Created on Mon Jul 29 12:30:28 2019
 @author: damienrigden
 """
 
+Can you encode "Hello world!"
