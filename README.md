@@ -16,6 +16,8 @@ First person to solve this wins a piece of art!
 Enjoy!
 
 
-Does the order of numbers in the encryption matter / if you moved the items in the dictionary around, would the encryption be different?
+Q1. Does the order of numbers in the encryption matter / if you moved the items in the dictionary around, would the encryption be different?
+A1.Dictionaries are inherently not ordered in python, the decryption takes this into account. You could take my encrypted message and move around all of the key value pairs and it would still be decrypted the same.
 
-Do the quotes get encrypted as well / could you encrypt integers?
+Q2. Do the quotes get encrypted as well / could you encrypt integers?
+A2. Strings follow python rules of nested quotes. In the string "That's my string!", the inner quote will be encrypted.
