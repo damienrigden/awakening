@@ -19,5 +19,9 @@ encrypt = asleep(h)
 print(encrypt)
 {135: [6], 214: [7, 7], 138: [8], 220: [10, 10], 140: [11, 15], 145: [13], 209: [14], 225: [15], 130: [16], 199: [19, 6]}
 
-Can you encode "world! Hello" ?
+encrypt2 = asleep("world! Hello")
+encrypt3 = asleep("🐐")
+encrypt4 = asleep("a")
+encrypt5 = asleep("aa")
+
 
