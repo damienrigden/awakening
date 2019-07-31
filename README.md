@@ -21,3 +21,6 @@ A1.Dictionaries are inherently not ordered in python, the decryption takes this 
 
 Q2. Do the quotes get encrypted as well / could you encrypt integers?
 A2. Strings follow python rules of nested quotes. In the string "That's my string!", the inner quote will be encrypted. Yes integers and special characters can be encrypted. Feel free to submit anything you want encrypted and I will let you know if it fails.
+
+Q3. Is the `asleep()` function deterministic? Will it always product an identical dictionary given the same string?
+A3. Yes, 'asleep()' will always produce the same dictionary given an identical string.
