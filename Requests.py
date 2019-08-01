@@ -56,6 +56,7 @@ encrypt11 = asleep("\x01")
 print(encrypt11)
 {66: [0], 199: [3, 2]}
 
+
 From question 4, here is an example of two different dictionaries that if put into awake() will produce the same string:
 dictionary = asleep('Check out my custom dict.')
 print(dictionary)
@@ -72,27 +73,27 @@ print(awake(customdict))
 Check out my custom dict.
 
 
-encrypt12 = "\x00\x00"
+encrypt12 = asleep("\x00\x00")
 print(asleep(encrypt12))
 {63: [0], 113: [1], 199: [3, 6]}
 
-encrypt13 = "\x00\x01"
+encrypt13 = asleep("\x00\x01")
 print(asleep(encrypt13))
 {65: [0], 116: [1], 199: [3, 2]}
 
-encrypt14 = "\x01\x01"
+encrypt14 = asleep("\x01\x01")
 print(asleep(encrypt14))
 {64: [0], 114: [1], 199: [3, 6]}
 
-encrypt15 = "A"
+encrypt15 = asleep("A")
 print(asleep(encrypt15))
 {136: [18], 199: [1299, 171]}
 
-encrypt16 = "AB"
+encrypt16 = asleep("AB")
 print(asleep(encrypt16))
 {136: [18], 168: [19], 199: [1299, 171]}
 
-encrypt17 = "BA"
+encrypt17 = asleep("BA")
 print(asleep(encrypt17))
 {137: [18], 167: [19], 199: [1299, 171]}
 
