@@ -29,7 +29,7 @@ for a in range(7776):
     testword = chr(first) + chr(second) + chr(third) + chr(fourth) + chr(fifth)
     log.write("Word tested: {}\n".format(testword))
     tosleep = asleep(testword)
-    log.write(str(tosleep))
+    log.write(str(tosleep) + '\n')
     awoken = awake(tosleep)
     if awoken == testword:
         log.write('Test passed!\n')
@@ -42,7 +42,7 @@ for a in range(7776):
         failed += 1
         errors.append(message)
     
-    log.write('/n')
+    log.write('\n')
     test += 1
                     
 log.write('Number of tests: {}\n'.format(test))
