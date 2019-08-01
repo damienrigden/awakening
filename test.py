@@ -54,6 +54,6 @@ log.write('Number passed: {}\n'.format(passed))
 log.write('Number failed: {}\n'.format(failed))
 log.write('Error Log:\n')
 for item in errors:
-    log.write(str(errors))
+    log.write(str(item))
 
 log.close()
