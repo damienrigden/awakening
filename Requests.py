@@ -55,3 +55,10 @@ print(encrypt10)
 encrypt11 = asleep("\x01")
 print(encrypt11)
 {66: [0], 199: [3, 2]}
+
+encrypt12 = "\x00\x00"
+encrypt13 = "\x00\x01"
+encrypt14 = "\x01\x01"
+encrypt15 = "A"
+encrypt16 = "AB"
+encrypt17 = "BA"
