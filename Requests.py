@@ -10,12 +10,7 @@ Using this or not is just personal preference.
 
 """
 
-Can you encode "Hello world!"
-
-h = "Hello world!"
-
-encrypt = asleep(h)
-
+encrypt = asleep("Hello world!")
 print(encrypt)
 {135: [6], 214: [7, 7], 138: [8], 220: [10, 10], 140: [11, 15], 145: [13], 209: [14], 225: [15], 130: [16], 199: [19, 6]}
 
@@ -41,4 +36,10 @@ encrypt6 = asleep('aaaaaaaa')
 print(encrypt6)
 {160: [0], 210: [1], 127: [2, 11], 203: [3], 206: [4], 205: [5], 198: [6], 199: [3, 6]}
 
+encrypt7 = asleep("🂡")
+print(encrypt7)
+{127195: [9], 199: [84, 51]}
 
+encrypt8 = asleep("⟰")
+print(encrypt8)
+{10285: [6], 199: [19, 18]}
