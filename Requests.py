@@ -74,27 +74,27 @@ Check out my custom dict.
 
 
 encrypt12 = asleep("\x00\x00")
-print(asleep(encrypt12))
+print(encrypt12)
 {63: [0], 113: [1], 199: [3, 6]}
 
 encrypt13 = asleep("\x00\x01")
-print(asleep(encrypt13))
+print(encrypt13)
 {65: [0], 116: [1], 199: [3, 2]}
 
 encrypt14 = asleep("\x01\x01")
-print(asleep(encrypt14))
+print(encrypt14)
 {64: [0], 114: [1], 199: [3, 6]}
 
 encrypt15 = asleep("A")
-print(asleep(encrypt15))
+print(encrypt15)
 {136: [18], 199: [1299, 171]}
 
 encrypt16 = asleep("AB")
-print(asleep(encrypt16))
+print(encrypt16)
 {136: [18], 168: [19], 199: [1299, 171]}
 
 encrypt17 = asleep("BA")
-print(asleep(encrypt17))
+print(encrypt17)
 {137: [18], 167: [19], 199: [1299, 171]}
 
 
