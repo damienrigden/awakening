@@ -41,4 +41,7 @@ encrypt6 = asleep('aaaaaaaa')
 print(encrypt6)
 {160: [0], 210: [1], 127: [2, 11], 203: [3], 206: [4], 205: [5], 198: [6], 199: [3, 6]}
 
+encrypt7 = asleep("🂡")
 
+
+encrypt8 = asleep("⟰")
