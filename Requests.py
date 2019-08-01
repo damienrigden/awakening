@@ -55,3 +55,45 @@ print(encrypt10)
 encrypt11 = asleep("\x01")
 print(encrypt11)
 {66: [0], 199: [3, 2]}
+
+From question 4, here is an example of two different dictionaries that if put into awake() will produce the same string:
+dictionary = asleep('Check out my custom dict.')
+print(dictionary)
+{112: [9, 420], 199: [10, 422, 84, 402], 113: [11], 187: [12], 198: [13], 122: [14, 419], \
+ 194: [15], 152: [16], 193: [17], 150: [18], 121: [19], 233: [20], 133: [21], 111: [22], \
+ 238: [23], 223: [24, 418], 234: [25, 423], 196: [26], 227: [30], 58: [33]}
+
+customdict = print(dictionary)
+{171: [117], 205: [118], 172: [119], 193: [120], 257: [121], 128: [122, 215], 253: [123], \
+ 188: [124], 199: [125, 2313444, 198], 186: [126], 180: [127], 269: [128], 139: [129], \
+ 117: [130], 274: [131], 259: [132], 270: [133, 219], 202: [134], 206: [135], 118: [137], \
+ 263: [138], 182: [139], 64: [141]}
+print(awake(customdict))
+Check out my custom dict.
+
+
+encrypt12 = "\x00\x00"
+print(asleep(encrypt12))
+{63: [0], 113: [1], 199: [3, 6]}
+
+encrypt13 = "\x00\x01"
+print(asleep(encrypt13))
+{65: [0], 116: [1], 199: [3, 2]}
+
+encrypt14 = "\x01\x01"
+print(asleep(encrypt14))
+{64: [0], 114: [1], 199: [3, 6]}
+
+encrypt15 = "A"
+print(asleep(encrypt15))
+{136: [18], 199: [1299, 171]}
+
+encrypt16 = "AB"
+print(asleep(encrypt16))
+{136: [18], 168: [19], 199: [1299, 171]}
+
+encrypt17 = "BA"
+print(asleep(encrypt17))
+{137: [18], 167: [19], 199: [1299, 171]}
+
+
