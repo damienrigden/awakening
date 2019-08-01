@@ -43,3 +43,15 @@ print(encrypt7)
 encrypt8 = asleep("⟰")
 print(encrypt8)
 {10285: [6], 199: [19, 18]}
+
+encrypt9 = asleep("")
+print(encrypt9)
+error
+
+encrypt10 = asleep("\x00")
+print(encrypt10)
+{65: [0], 199: [3, 2]}
+
+encrypt11 = asleep("\x01")
+print(encrypt11)
+{66: [0], 199: [3, 2]}
