@@ -19,16 +19,16 @@ failed = 0
 log.write('TEST LOG FILE FOR AWAKENING CRYPTO PROBLEM\n')
 log.write('\n')
 
-for a in range(15):
+for a in range(6):
     testword = ''
     first = random.randint(33,126)
-    for b in range(15):
+    for b in range(6):
         second = random.randint(33,126)
-        for c in range(15):
+        for c in range(6):
             third = random.randint(33,126)
-            for d in range(15):
+            for d in range(6):
                 fourth = random.randint(33,126)
-                for e in range(15):
+                for e in range(6):
                     fifth = random.randint(33,126)
                     testword = chr(first) + chr(second) + chr(third) + chr(fourth) + chr(fifth)
                     log.write("Word tested: {}\n".format(testword))
