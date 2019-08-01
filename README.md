@@ -15,6 +15,8 @@ First person to solve this wins a piece of art!
 
 Enjoy!
 
+**UPDATE: I created two different test programs, `test.py` testing words with sequential changes, and `test2.py` just testing random changes each time. They have been output into to files `Log.txt` and `Log2.txt`.**
+
 
 Q1. Does the order of numbers in the encryption matter / if you moved the items in the dictionary around, would the encryption be different?  
 A1. Dictionaries are inherently not ordered in python, the decryption takes this into account. You could take my encrypted message and move around all of the key value pairs and it would still be decrypted the same.
