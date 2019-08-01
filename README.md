@@ -26,4 +26,4 @@ Q3. Is the `asleep()` function deterministic? Will it always product an identica
 A3. Yes, `asleep()` will always produce the same dictionary given an identical string.
 
 Q4. Can two-hand crafted encrypted-dicts provided to `awake()` produce identical plain-text?  
-A4. 
+A4. I have not tried to prove it yet, but I'm pretty confident that that is the case, yes. Feel free to mess around with any of the things I have encrypted so far and I will run it through `awake()` to see how it effects plain-text, or if it will fail.
