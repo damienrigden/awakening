@@ -104,3 +104,19 @@ print(encrypt18)
 encrypt19 = asleep("1") <---I assume you wanted the string 1, putting in a straight integer will make it fail.
 print(encrypt19)
 {105: [12], 199: [259, 83]}
+
+encrypt19 = asleep("\n")
+print(encrypt19)
+{73: [3], 199: [4, 6]}
+
+encrypt20 = asleep("\n\n")
+print(encrypt20)
+{73: [0], 123: [1], 199: [3, 6]}
+
+encrypt21 = asleep("\r")
+print(encrypt21)
+76: [3], 199: [4, 6]}
+
+encrypt22 = asleep("\r\n")
+print(encrypt22)
+{76: [3], 123: [4], 199: [4, 6]}
