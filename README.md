@@ -15,7 +15,7 @@ First person to solve this wins a piece of art!
 
 Enjoy!
 
-**UPDATE: I added a testdata folder. This includes 4 tests and corresponding log files. `test.py` and `log.txt` generates 7^5 dictionaries of string length 5 random/progressively. `test2.py` and `Log2.txt` generates 7^5 dictionaries of string length 5 straight randomly. `test3.py`. `Log3.txt` just shows an output of running 1 million tests checking input of `asleep()` with output of `awake()`. `test4.py` and `Log4.txt` generates 8000 random dictionaries of length 20. Feel free to propose more tests. I will generate more data if you're interested. If anyone comes up with their own version of `awake()`, if you give me the code I will import it into my test and output a list of "Expected -> Returned" errors to help you with debugging.**
+**UPDATE: I added a testdata folder. This includes 4 tests and corresponding log files. `test.py` and `log.txt` generates 7^5 dictionaries of string length 5 random/progressively. `test2.py` and `Log2.txt` generates 7^5 dictionaries of string length 5 straight randomly. `test3.py`. `Log3.txt` just shows an output of running 1 million tests checking input of `asleep()` with output of `awake()`. `test4.py` and `Log4.txt` generates 8000 random dictionaries of length 20. Feel free to propose more tests. I will generate more data if you're interested.
 
 
 Q1. Does the order of numbers in the encryption matter / if you moved the items in the dictionary around, would the encryption be different?  
