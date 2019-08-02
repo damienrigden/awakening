@@ -107,16 +107,16 @@ print(encrypt19)
 
 encrypt19 = asleep("\n")
 print(encrypt19)
-# ?
+{73: [3], 199: [4, 6]}
 
 encrypt20 = asleep("\n\n")
 print(encrypt20)
-# ?
+{73: [0], 123: [1], 199: [3, 6]}
 
 encrypt21 = asleep("\r")
 print(encrypt21)
-# ?
+76: [3], 199: [4, 6]}
 
 encrypt22 = asleep("\r\n")
 print(encrypt22)
-# ?
+{76: [3], 123: [4], 199: [4, 6]}
