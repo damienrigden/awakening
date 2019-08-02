@@ -15,6 +15,9 @@ First person to solve this wins a piece of art!
 
 Enjoy!
 
+**UPDATE: I added a testdata folder. This includes 3 tests and corresponding log files. `test.py` and `log.txt` generates 7^5 dictionaries of string length 5 progressively. `test2.py` and `Log2.txt` generates 7^5 dictionaries of string length 5 randomly. `test3.py` and `Log3.txt` just shows an output of running 1 million tests checking input of `asleep()` with output of `awake()`. Feel free to propose more tests. I will generate more data if youre interested.***
+
+
 Q1. Does the order of numbers in the encryption matter / if you moved the items in the dictionary around, would the encryption be different?  
 A1. Dictionaries are inherently not ordered in python, the decryption takes this into account. You could take my encrypted message and move around all of the key value pairs and it would still be decrypted the same.
 
