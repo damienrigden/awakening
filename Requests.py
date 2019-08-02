@@ -97,4 +97,10 @@ encrypt17 = asleep("BA")
 print(encrypt17)
 {137: [18], 167: [19], 199: [1299, 171]}
 
+encrypt18 = asleep("B")
+print(encrypt18)
+{137: [18], 199: [1299, 171]}
 
+encrypt19 = asleep("1") <---I assume you wanted the string 1, putting in a straight integer will make it fail.
+print(encrypt19)
+{105: [12], 199: [259, 83]}
