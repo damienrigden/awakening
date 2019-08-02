@@ -1,0 +1,6 @@
+TEST LOG FILE FOR AWAKENING CRYPTO PROBLEM
+
+Number of tests: 1000000
+Number passed: 1000000
+Number failed: 0
+Error Log:
