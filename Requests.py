@@ -122,5 +122,9 @@ print(encrypt23)
 {76: [3], 123: [4], 199: [4, 6]}
 
 encrypt24 = asleep("\r\r")
+print(encrypt24)
+{76: [0], 126: [1], 199: [3, 6]}
 
 encrypt25 = asleep("AA")
+print(encrypt25)
+{128: [0], 178: [1], 199: [3, 6]}
