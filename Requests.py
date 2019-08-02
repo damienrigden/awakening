@@ -97,4 +97,7 @@ encrypt17 = asleep("BA")
 print(encrypt17)
 {137: [18], 167: [19], 199: [1299, 171]}
 
+encrypt18 = asleep("B")
 
+
+encrypt19 = asleep(1)
