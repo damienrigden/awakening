@@ -46,7 +46,7 @@ print(encrypt8)
 
 encrypt9 = asleep("")
 print(encrypt9)
-error
+{199: [0, 0]}
 
 encrypt10 = asleep("\x00")
 print(encrypt10)
