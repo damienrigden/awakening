@@ -17,8 +17,7 @@ Enjoy!
 
 I added a testdata folder. This includes 4 tests and corresponding log files. `test.py` and `log.txt` generates 7^5 dictionaries of string length 5 random/progressively. `test2.py` and `Log2.txt` generates 7^5 dictionaries of string length 5 straight randomly. `test3.py`. `Log3.txt` just shows an output of running 1 million tests checking input of `asleep()` with output of `awake()`. `test4.py` and `Log4.txt` generates 8000 random dictionaries of length 20. Feel free to propose more tests. I will generate more data if you're interested.
 
-**UPDATE: I added some hints. This is all I am going to give out so I can't offer anything more than this. Try to think carefully about these, some you may find more useful than others depending on where you're at. If these make the problem too easy for you and you are disappointed check out my new crypto problem "polymorph", I don't plan on giving any hints for that one.**
-
+**UPDATE: I changed my mind about the hints. If I make it too easy, or give out answers, going through the trouble of designing this problem and getting it to work would just have been a waste of time. I hope you still enjoyed working on it even if you are unable to figure it out.
 
 Q1. Does the order of numbers in the encryption matter / if you moved the items in the dictionary around, would the encryption be different?  
 A1. Dictionaries are inherently not ordered in python, the decryption takes this into account. You could take my encrypted message and move around all of the key value pairs and it would still be decrypted the same.
